@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>CKEditor and JS+ Bootstrap Full Bundle demo</title>
+    <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
+  </head>
+  <body style="padding:20px">
+		<textarea id="editor" style="heigth:900px">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<ul class="breadcrumb" style="margin-bottom: 0 !important;">
+							<li>
+								<a href="http://js.plus">JS+ products</a>
+							</li>
+							<li>
+								<a href="http://js.plus/category/ckeditor">Editors plugins</a>
+							</li>
+							<li>
+								<a href="http://js.plus/products/bootstrap-tools">Bootstrap Tools</a>
+							</li>
+							<li class="active">
+								<a href="http://js.plus/products/bootstrap-tools/demo">Demo</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-md-4" style="min-height: 180px">
+						<p>This is the demo of Bootstrap Tools for CKEditor &amp; TinyMCE.</p>
+						<p>Try inserting new Bootstrap widget, editing buttons and blocks to see how is it simple.</p>
+						<p><a class="btn btn-success" href="http://js.plus">Find out more</a></p>
+					</div>
+					<div class="col-xs-12 col-md-4" style="min-height: 180px">
+						<p style="text-align: center">
+							<span class="glyphicon glyphicon-user" style="font-size:32px;color:#0084BD">&#8203;</span>
+							&nbsp;
+							<span class="glyphicon glyphicon-inbox" style="font-size:40px;color:#3E53BD">&#8203;</span>
+							&nbsp;
+							<span class="glyphicon glyphicon-star-empty" style="font-size:55px;color:#6924E6">&#8203;</span>
+							&nbsp;
+							<span class="glyphicon glyphicon-book" style="font-size:40px;color:#3E53BD">&#8203;</span>
+							&nbsp;
+							<span class="glyphicon glyphicon-info-sign" style="font-size:32px;color:#0084BD">&#8203;</span>
+						</p>
+						<p>Insert any of Bootstrap font icons inside the text with the ease.</p>
+						<p style="text-align: center">
+
+						</p>
+					</div>
+					<div class="col-xs-12 col-md-4" style="min-height: 180px">
+						<div class="alert alert-info" role="alert"><strong>Info.</strong>&nbsp;Alerts can be placed with a couple of clicks.</div>
+						<p>Many other features are available with Bootstrap Tools.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-md-6" style="min-height: 180px">
+						<p style="font-size:22px">Did you know?</p>
+						<p>
+							<img src="http://js.plus/logo/bootstrap-editor" alt="Bootstrap Editor logo" style="display:inline-block;float:left;margin-right:20px;margin-bottom:20px"/>
+							For easy editing Bootstrap tables we have <a href="/products/bootstrap-table-tools">Bootstrap Table Tools</a> which can be purchased inside <a href="/products/bootstrap-bundle">Bootstrap Bundle</a> with good discount.
+						</p>
+						<p>
+							...and see our powerful <a href="/products/bootstrap-editor">Bootstrap Editor</a> to have level-up in editing Bootstrap contents.
+						</p>
+					</div>
+					<div class="col-xs-12 col-md-6" style="min-height: 180px">
+						<p><span class="label label-warning">Warning</span>&nbsp;JS+ Bootstrap instruments cause addiction: many thousand of our clients manage their website with modern&nbsp;powerful tools you are testing now.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<p style="font-size:22px">What's next?</p>
+						<p><b>Your turn!</b> Try to add Bootstrap rows and columns with Bootstrap Templates add-on, edit them with Bootstrap Blocks plugin and insert any other widgets.</p>
+					</div>
+				</div>
+			</div>
+		</textarea>
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+				CKEDITOR.replace("editor");
+			});
+		</script>
+  </body>
+</html>
